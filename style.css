@@ -1,0 +1,14 @@
+body{
+   
+    background-color: #fff0f5;
+
+    background-image:
+        radial-gradient(#ff8fb1 3px, transparent 3px);
+
+    background-size: 40px 40px;
+
+}
+
+h1{
+    text-align: center;
+}
