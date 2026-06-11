@@ -26,12 +26,16 @@ function getHumanChoice(){
 
 function playRound( HC , CC){
     if ( HC === CC ){
+        console.log("User Choice: " , HC);
+        console.log("Computer Choice: " , CC);
         console.log("Computer Score: " , ComputerScore);
         console.log("User Score: " , humanScore);
         return console.log("Tie");
     }
     else if( HC === 'paper' && CC === 'rock'){
         humanScore += 1;
+        console.log("User Choice: " , HC);
+        console.log("Computer Choice: " , CC);
         console.log("Computer Score: " , ComputerScore);
         console.log("User Score: " , humanScore);
        
@@ -39,6 +43,8 @@ function playRound( HC , CC){
     }
     else if( HC === 'rock' && CC === 'scissor'){
         humanScore += 1;
+        console.log("User Choice: " , HC);
+        console.log("Computer Choice: " , CC);
         console.log("Computer Score: " , ComputerScore);
         console.log("User Score: " , humanScore);
         return console.log("User wins! Rock beats Scissor ");
@@ -46,12 +52,16 @@ function playRound( HC , CC){
     }
     else if( HC === 'scissor' && CC === 'paper'){
         humanScore += 1;
+        console.log("User Choice: " , HC);
+        console.log("Computer Choice: " , CC);
         console.log("Computer Score: " , ComputerScore);
         console.log("User Score: " , humanScore);
         return console.log("User wins! Scissor beats Paper ");
     }
     else{
         ComputerScore += 1;
+        console.log("User Choice: " , HC);
+        console.log("Computer Choice: " , CC);
         console.log("Computer Score: " , ComputerScore);
         console.log("User Score: " , humanScore);
         return console.log("Computer wins!!");
